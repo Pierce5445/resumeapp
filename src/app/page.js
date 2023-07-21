@@ -7,7 +7,7 @@ export default function Home() {
       <div>
       <>
       {import('tailwindcss').Config}
-  <link rel="stylesheet" href="sty" />
+  
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
