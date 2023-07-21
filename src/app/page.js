@@ -79,7 +79,7 @@ export default function Home() {
         <li>
           <h5 className={styles.h5}>2013 - 2018</h5>
           <h4 className={styles.h4}>Sciences</h4>
-          <h4 className={styles.h4}>ASJA Boys' College</h4>
+          <h4 className={styles.h4}>ASJA Boys College</h4>
         </li>
       </ul>
     </div>
@@ -96,8 +96,8 @@ export default function Home() {
       <br />
       <li>
         Ambitious student pursuing a BSc in Electrical and Computer Engineering
-        Degree eager to contribute developing knowledge in today's growing
-        market.
+        Degree eager to contribute developing knowledge in the rapid growing
+        market of the present and future.
       </li>
       <br />
       <li>
