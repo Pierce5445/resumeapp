@@ -16,12 +16,7 @@ export default function Home() {
     referrerPolicy="no-referrer"
   />
 </>
-<style
-  dangerouslySetInnerHTML={{
-    __html:
-      "\n       \n       .two-column-list {\n            columns: 2;\n            column-gap: 20px; \n        }\n\n        \n        .two-column-list li {\n          list-style: none; \n            margin-bottom: 10px;\n        }\n  "
-  }}
-/>
+
       <>
       <div className={styles.body}>
       <div className={styles.wholeBody}>
@@ -33,6 +28,8 @@ export default function Home() {
         priority
         width={300}
         height={300}
+        alt="Pierce Picture"
+
          src='/images/pierce.png' />
         
       </div>
@@ -117,8 +114,6 @@ export default function Home() {
         <li>C++, Python and JavaScript</li>
         <li>MS Office</li>
         <li>Decision-making</li>
-      </ul>
-      <ul>
         <li>Collaboration</li>
         <li>Relationship Building</li>
         <li>Data Management</li>
