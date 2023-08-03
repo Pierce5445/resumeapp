@@ -7,6 +7,18 @@
     color: black; 
     min-height: 100vh;
 }
+.custombutton {
+    background-color: rgb(101, 98, 98);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
 
 .wholeBody{
@@ -193,6 +205,14 @@
      font-weight: 300;
      position: relative;
      margin-top: 1px;
+ }
+ .h8
+ {
+     color: white;
+     font-weight: 300;
+     position: relative;
+     margin-top: 1px;
+     font-size: 13px;
  }
  
  @media (max-width: 1000px)

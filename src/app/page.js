@@ -1,5 +1,7 @@
 import styles from './styles.module.css' 
 import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
 
 export default function Home() {
   return (
@@ -52,13 +54,16 @@ export default function Home() {
           <span className={styles.icon}>
             <i className="fa fa-envelope" aria-hidden="true" />
           </span>
-          <span className="text">piercebenny5445@gmail.com</span>
+          <span className={styles.h8}>piercebenny5445@gmail.com</span>
         </li>
         <li>
           <span className={styles.icon}>
             <i className="fa fa-map-marker" aria-hidden="true" />
           </span>
-          <span className="text">San Fernando Trinidad and Tobago</span>
+          <span className="text">San Fernando </span>
+          
+         
+
         </li>
       </ul>
     </div>
@@ -69,17 +74,24 @@ export default function Home() {
         <li className={styles.li}>
           <h5 className={styles.h5}>2020 - Current</h5>
           <h4 className={styles.h4}>Bachelor Degree in Electrical and Computer Engineering</h4>
-          <h4 className={styles.h4}>The University of The West Indies</h4>
+        
+          <Link href="https://sta.uwi.edu/" passHref>
+         <button className={styles.custombutton}>The University of The West Indies</button>
+         </Link>
         </li>
         <li>
           <h5 className={styles.h5}>2018 - 2020</h5>
           <h4 className={styles.h4}>NETD in Electrical/Electronic Engineering</h4>
-          <h4 className={styles.h4}>The University of Trinidad and Tobago</h4>
+         <Link href="https://utt.edu.tt/" passHref>
+         <button className={styles.custombutton}>The University of Trinidad and Tobago</button>
+         </Link>
         </li>
         <li>
           <h5 className={styles.h5}>2013 - 2018</h5>
           <h4 className={styles.h4}>Sciences</h4>
-          <h4 className={styles.h4}>ASJA Boys College</h4>
+          <Link href="https://asjaboys.edu.tt/" passHref>
+         <button className={styles.custombutton}>ASJA Boys College</button>
+         </Link>
         </li>
       </ul>
     </div>
